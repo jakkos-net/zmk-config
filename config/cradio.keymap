@@ -57,7 +57,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        ALPHA {
+        Alpha {
             bindings = <
   &kp Q   &kp W   &kp F   &kp P   &kp B      &kp J   &kp L      &kp U    &kp Y         &none
   &kp A   &kp R   &kp S   &kp T   &kp G      &kp M   &kp N      &kp E    &kp I         &kp O
@@ -66,16 +66,16 @@
             >;
         };
 
-        SHIFT {
+        Shift {
             bindings = <
- &kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(B)  &kp LS(P)  &kp LS(J)  &kp LS(L)          &kp LS(U)         &kp LS(Y)            &none
+ &kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(B)  &kp LS(P)  &kp LS(J)  &kp LS(L)          &kp LS(U)         &kp LS(Y)           &tog 6
  &kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)  &kp LS(M)  &kp LS(N)          &kp LS(E)         &kp LS(I)        &kp LS(O)
  &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(D)  &kp LS(V)  &kp LS(K)  &kp LS(H)  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp EXCLAMATION
                                       &none      &none      &none      &mo 5
             >;
         };
 
-        FUNCTION {
+        Function {
             bindings = <
         &none         &none           &none      &none  &kp PRCT   &kp CRRT       &kp AMPS    &kp UP   &kp LPRN   &kp RPRN
  &sk LEFT_ALT  &sk LEFT_GUI  &sk LEFT_SHIFT  &sk LCTRL  &kp SCLN  &kp MINUS       &kp LEFT  &kp DOWN  &kp RIGHT   &kp BKSP
@@ -84,7 +84,7 @@
             >;
         };
 
-        NUMBERS {
+        Numbers {
             bindings = <
      &kp NUM_1         &kp NUM_2        &kp COLON          &kp SEMICOLON          &kp NUM_5  &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp PLUS
  &kp BACKSLASH     &kp LESS_THAN   &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp STAR  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH
@@ -93,7 +93,7 @@
             >;
         };
 
-        Layer__4 {
+        _ {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -102,7 +102,7 @@
             >;
         };
 
-        Layer__5 {
+        Symbols {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -111,30 +111,21 @@
             >;
         };
 
-        Layer__6 {
+        Gaming {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans  &trans
+          &kp ESC   &kp Q   &kp W   &kp E      &kp R   &none   &none   &none   &none   &none
+   &kp LEFT_SHIFT   &kp A   &kp S   &kp D      &kp F   &none   &none   &none   &none   &none
+ &kp LEFT_CONTROL   &kp Z   &kp X   &kp C      &kp V   &none   &none   &none   &none   &none
+                                    &mo 7  &kp SPACE   &none   &none
             >;
         };
 
-        GAMING {
+        Gaming2 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans  &trans
-            >;
-        };
-
-        GAMING2 {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans  &trans
+        &kp B         &kp I         &kp G         &kp T         &kp M   &none   &none   &none   &none  &trans
+      &kp TAB  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &none   &none   &none   &none   &none
+ &kp LEFT_ALT  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &none   &none   &none   &none   &none
+                                                  &none         &none   &none   &none
             >;
         };
     };
