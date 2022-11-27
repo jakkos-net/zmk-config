@@ -77,10 +77,10 @@
 
         Function {
             bindings = <
-        &none         &none           &none      &none  &kp PRCT   &kp CRRT       &kp AMPS    &kp UP   &kp LPRN   &kp RPRN
- &sk LEFT_ALT  &sk LEFT_GUI  &sk LEFT_SHIFT  &sk LCTRL  &kp SCLN  &kp MINUS       &kp LEFT  &kp DOWN  &kp RIGHT   &kp BKSP
-     &kp LSFT      &kp KPLS        &kp LBKT   &kp RBKT  &kp BSLH  &kp UNDER  &kp BACKSPACE  &kp DOWN     &kp UP  &kp RIGHT
-                                                 &mo 3     &none  &kp ENTER          &mo 4
+        &none         &none           &none         &none  &kp PRCT   &kp CRRT       &kp AMPS    &kp UP   &kp LPRN   &kp RPRN
+ &sk LEFT_ALT  &sk LEFT_GUI  &sk LEFT_SHIFT     &sk LCTRL  &kp SCLN  &kp MINUS       &kp LEFT  &kp DOWN  &kp RIGHT   &kp BKSP
+     &kp LSFT      &kp KPLS        &kp LBKT  &kp LEFT_GUI  &kp BSLH  &kp UNDER  &kp BACKSPACE  &kp DOWN     &kp UP  &kp RIGHT
+                                                    &mo 3     &none  &kp ENTER          &mo 4
             >;
         };
 
