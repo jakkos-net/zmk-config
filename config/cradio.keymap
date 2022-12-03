@@ -68,7 +68,7 @@
 
         Shift {
             bindings = <
- &kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(B)  &kp LS(P)  &kp LS(J)  &kp LS(L)          &kp LS(U)         &kp LS(Y)           &tog 6
+ &kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(B)  &kp LS(P)  &kp LS(J)  &kp LS(L)          &kp LS(U)         &kp LS(Y)            &to 6
  &kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)  &kp LS(M)  &kp LS(N)          &kp LS(E)         &kp LS(I)        &kp LS(O)
  &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(D)  &kp LS(V)  &kp LS(K)  &kp LS(H)  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp EXCLAMATION
                                       &none      &none      &none      &mo 5
@@ -113,7 +113,7 @@
 
         Gaming {
             bindings = <
-          &kp ESC   &kp Q   &kp W   &kp E      &kp R   &none   &none   &none   &none   &none
+          &kp ESC   &kp Q   &kp W   &kp E      &kp R   &none   &none   &none   &none   &to 0
    &kp LEFT_SHIFT   &kp A   &kp S   &kp D      &kp F   &none   &none   &none   &none   &none
  &kp LEFT_CONTROL   &kp Z   &kp X   &kp C      &kp V   &none   &none   &none   &none   &none
                                     &mo 7  &kp SPACE   &none   &none
