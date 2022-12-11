@@ -6,7 +6,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
 
 &mt {
     //  flavor = "tap-preferred";
@@ -75,39 +74,39 @@
             >;
         };
 
-        Function {
+        Extend {
             bindings = <
-        &none         &none           &none         &none  &kp PRCT   &kp CRRT       &kp AMPS    &kp UP   &kp LPRN   &kp RPRN
- &sk LEFT_ALT  &sk LEFT_GUI  &sk LEFT_SHIFT     &sk LCTRL  &kp SCLN  &kp MINUS       &kp LEFT  &kp DOWN  &kp RIGHT   &kp BKSP
-     &kp LSFT      &kp KPLS        &kp LBKT  &kp LEFT_GUI  &kp BSLH  &kp UNDER  &kp BACKSPACE  &kp DOWN     &kp UP  &kp RIGHT
-                                                    &mo 3     &none  &kp ENTER          &mo 4
+      &kp ESC         &none           &none         &none  &kp PRCT      &kp PAGE_UP       &kp HOME    &kp UP    &kp END  &kp CAPS
+ &sk LEFT_ALT  &sk LEFT_GUI  &sk LEFT_SHIFT     &sk LCTRL  &kp SCLN    &kp PAGE_DOWN       &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
+     &kp LSFT      &kp KPLS        &kp LBKT  &kp LEFT_GUI  &kp BSLH  &kp PRINTSCREEN  &kp BACKSPACE   &kp TAB      &none     &none
+                                                    &mo 3     &none        &kp ENTER          &mo 4
             >;
         };
 
         Numbers {
             bindings = <
-     &kp NUM_1         &kp NUM_2        &kp COLON          &kp SEMICOLON          &kp NUM_5  &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp PLUS
+     &kp GRAVE          &kp PIPE        &kp COLON          &kp SEMICOLON          &kp UNDER  &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp PLUS
  &kp BACKSLASH     &kp LESS_THAN   &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp STAR  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH
-    &bt BT_CLR  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
+     &kp TILDE  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
                                                                    &mo 4              &mo 5      &none         &none
             >;
         };
 
-        _ {
+        Function {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+    &kp     &kp     &kp     &kp     &kp  &trans     &kp     &kp     &kp  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &kp F4  &kp F5  &kp F6  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &kp F1  &kp F2  &kp F3  &trans
                          &trans  &trans  &trans  &trans
             >;
         };
 
         Symbols {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &kp AMPERSAND          &kp        &kp  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans     &kp DOLLAR  &kp PERCENT  &kp CARET  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &kp       &kp AT   &kp HASH  &trans
+                         &trans  &trans  &trans         &trans
             >;
         };
 
