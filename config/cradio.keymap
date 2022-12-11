@@ -94,10 +94,10 @@
 
         Function {
             bindings = <
-    &kp     &kp     &kp     &kp     &kp  &trans     &kp     &kp     &kp  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &kp F4  &kp F5  &kp F6  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &kp F1  &kp F2  &kp F3  &trans
-                         &trans  &trans  &trans  &trans
+    &kp     &kp     &kp     &kp     &kp  &kp F12  &kp F7  &kp F8  &kp F9  &trans
+ &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F4  &kp F5  &kp F6  &trans
+ &trans  &trans  &trans  &trans  &trans  &kp F10  &kp F1  &kp F2  &kp F3  &trans
+                          &none   &none    &none   &none
             >;
         };
 
@@ -105,7 +105,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans  &kp AMPERSAND          &kp        &kp  &trans
  &trans  &trans  &trans  &trans  &trans  &trans     &kp DOLLAR  &kp PERCENT  &kp CARET  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &kp       &kp AT   &kp HASH  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &kp undefined       &kp AT   &kp HASH  &trans
                          &trans  &trans  &trans         &trans
             >;
         };
