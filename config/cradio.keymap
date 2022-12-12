@@ -76,10 +76,10 @@
 
         Extend {
             bindings = <
-      &kp ESC         &none           &none         &none  &kp PRCT      &kp PAGE_UP       &kp HOME    &kp UP    &kp END  &kp CAPS
- &sk LEFT_ALT  &sk LEFT_GUI  &sk LEFT_SHIFT     &sk LCTRL  &kp SCLN    &kp PAGE_DOWN       &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
-     &kp LSFT      &kp KPLS        &kp LBKT  &kp LEFT_GUI  &kp BSLH  &kp PRINTSCREEN  &kp BACKSPACE   &kp TAB      &none     &none
-                                                    &mo 3     &none        &kp ENTER          &mo 4
+      &kp ESC         &none           &none         &none   &kp PRCT      &kp PAGE_UP       &kp HOME    &kp UP    &kp END  &kp CAPS
+ &sk LEFT_ALT  &sk LEFT_GUI  &sk LEFT_SHIFT     &sk LCTRL   &kp SCLN    &kp PAGE_DOWN       &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
+    &kp LC(Z)     &kp LC(X)   &kp RC(LC(C))  &kp LEFT_GUI  &kp LC(V)  &kp PRINTSCREEN  &kp BACKSPACE   &kp TAB      &none     &none
+                                                    &mo 3      &none        &kp ENTER          &mo 4
             >;
         };
 
@@ -94,7 +94,7 @@
 
         Function {
             bindings = <
-    &kp     &kp     &kp     &kp     &kp  &kp F12  &kp F7  &kp F8  &kp F9  &trans
+  &none   &none   &none   &none   &none  &kp F12  &kp F7  &kp F8  &kp F9  &trans
  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F4  &kp F5  &kp F6  &trans
  &trans  &trans  &trans  &trans  &trans  &kp F10  &kp F1  &kp F2  &kp F3  &trans
                           &none   &none    &none   &none
